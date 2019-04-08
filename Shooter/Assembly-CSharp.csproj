@@ -62,13 +62,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Nokobot\ModernGuns_Handgun\Demo Assets\SimpleShoot.cs" />
+    <Compile Include="Assets\Scripts\AI\AICharacterController.cs" />
     <Compile Include="Assets\Scripts\Controller\BaseController.cs" />
     <Compile Include="Assets\Scripts\Controller\FlashlightController.cs" />
     <Compile Include="Assets\Scripts\Controller\InputController.cs" />
+    <Compile Include="Assets\Scripts\Controller\WeaponController.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
+    <Compile Include="Assets\Scripts\ObjectManager.cs" />
+    <Compile Include="Assets\Scripts\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Objects\Ammunition.cs" />
     <Compile Include="Assets\Scripts\Objects\BaseObjectScene.cs" />
+    <Compile Include="Assets\Scripts\Objects\Bot.cs" />
+    <Compile Include="Assets\Scripts\Objects\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Objects\Enemy.cs" />
     <Compile Include="Assets\Scripts\Objects\Gun.cs" />
+    <Compile Include="Assets\Scripts\Objects\ISetDamage.cs" />
     <Compile Include="Assets\Scripts\Objects\Weapon.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/ANDrey/GitHub_Repositories/Unity2/Shooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

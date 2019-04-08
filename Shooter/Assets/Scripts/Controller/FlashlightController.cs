@@ -36,7 +36,7 @@ namespace Geekbrains.Controller
 
         public override void On()
         {
-            if (!Enable) return;
+            //if (Enable) return;
             base.On();
             SetFlashlightActive(true);
         }
@@ -55,7 +55,7 @@ namespace Geekbrains.Controller
 
         public override void Off()
         {
-            if (!Enable) return;
+            //if (!Enable) return;
             base.On();
             SetFlashlightActive(false);
         }
